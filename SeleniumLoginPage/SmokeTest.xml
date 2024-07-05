@@ -1,0 +1,11 @@
+<suite name="Suite1" verbose="1">
+    <test name="SmokeTest">
+        <classes>
+            <class name="OpenBrowserTest">
+                <methods>
+                    <include name="testLoginPageElements"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

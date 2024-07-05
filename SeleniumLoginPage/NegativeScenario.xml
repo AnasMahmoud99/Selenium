@@ -1,0 +1,13 @@
+<suite name="Suite1" verbose="1">
+    <test name="NegativeScenario">
+        <classes>
+            <class name="OpenBrowserTest">
+                <methods>
+                    <include name="testInValidData"/>
+                    <include name="testNoUsername"/>
+                    <include name="testNoPassword"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
